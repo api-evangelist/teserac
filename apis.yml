@@ -1,8 +1,30 @@
 aid: teserac
 name: Teserac
-description: Teserac is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Teserac is an AI-native infrastructure intelligence company building Neuron™,
+  a unified platform for data center observability, intelligence, and workflow
+  automation. Neuron ingests telemetry from every system in a facility and
+  correlates it across existing DCIM, BMS, EPMS, and ITSM platforms into a
+  single intelligence layer, surfacing anomalies before they become incidents to
+  protect SLAs and shrink MTTR. Its proprietary Neuron Connect™ technology
+  auto-discovers and configures devices and supports protocols including SNMP,
+  OPC-UA, MQTT, Redfish, REST APIs, and Niagara/Tridium. Teserac is backed by
+  Mayfield. As of this profile the company exposes a marketing site and an
+  authenticated product demo (neuron.demo.teserac.ai) but publishes no public
+  developer API, OpenAPI specification, SDK, or developer documentation.
 url: https://raw.githubusercontent.com/api-evangelist/teserac/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.teserac.ai/images/apple-touch-icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Data Center
+- Observability
+- Infrastructure
+- Monitoring
+- Workflow Automation
+- DCIM
+- Telemetry
+- Mission-Critical Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://teserac.ai
+- type: Login
+  url: https://neuron.demo.teserac.ai/auth/google
+- type: Support
+  url: https://www.teserac.ai/contact
+- type: PrivacyPolicy
+  url: https://www.teserac.ai/privacy
+- type: LinkedIn
+  url: https://linkedin.com/company/teserac-inc
+- type: DomainSecurity
+  url: security/teserac-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
